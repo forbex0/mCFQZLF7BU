@@ -1,0 +1,28 @@
+{
+  "name": "bank-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "keywords": [
+    "Bank"
+  ],
+  "author": "Abood",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord-rock-paper-scissor": "^1.1.1",
+    "discord.js": "^13.6.0",
+    "gamescord": "^1.0.4",
+    "glob": "^7.2.0",
+    "humanize-duration": "^3.27.1",
+    "mathjs": "^10.4.2",
+    "mongoose": "^6.2.9",
+    "ms": "^2.1.3",
+    "pro.db": "^3.0.6",
+    "quick.db": "^7.1.3",
+    "weeby-js": "^2.0.2"
+  }
+}
