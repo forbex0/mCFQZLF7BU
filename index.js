@@ -107,21 +107,8 @@ process.on("multipleResolves", (type, promise, reason) => {
    console.log(type, promise, reason);
 
 });
-// const mongoose = require("mongoose");
-// mongoose.connect(`mongodb+srv://abood:abood@cluster0.w91ov.mongodb.net/${client.config.TestingServerID}?authSource=admin&replicaSet=atlas-22gf9a-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true`, {
-//    useNewUrlParser: true,
-//    useUnifiedTopology: true,
-// })
-//    .then(() => console.log(chalk.green("Connected To MongoDB"))).catch(err => console.log(err))
-//    .catch(err => console.log(err));
 
-const mongoose = require("mongoose");
-mongoose.connect(`mongodb+srv://abood:abood@cluster0.w91ov.mongodb.net/${client.config.ServerID}?authSource=admin&replicaSet=atlas-22gf9a-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true`, {
-   useNewUrlParser: true,
-   useUnifiedTopology: true,
-})
-   .then(() => console.log(chalk.green("Connected To MongoDB"))).catch(err => console.log(err))
-   .catch(err => console.log(err));
+
 const db = require("quick.db")
 client.on('ready', () => {
    db.set('auctions', 'off')
