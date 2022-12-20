@@ -1,12 +1,12 @@
 {
-  "clienttoken": "OTM3ODAyODMyNjUwODM4MDc3.YfhC8g.a31GZFXMZFji_CpatMy5EkDgB44",
+  "clienttoken": "MTAzNzUwODE5NDU4MDMxNjIxMQ.GODUxp.TrRIuA38VjmQU5frJy_fSrvHXLIMr2XnGlSWLU",
   "miningch": "968085648336646154",
-  "bankchannelid":"967901475042918470",
-  "ServerID": "942729763364167691",
-  "TestingServerID": "942729763364167691",
-  "prefix": "-",
-  "ids":["958777655421992980","555408669488185344"],
-  "developerID": ["555408669488185344"],
+  "bankchannelid":"1054838008609775717",
+  "ServerID": "1054775053369225266",
+  "TestingServerID": "1054775053369225266",
+  "prefix": "#",
+  "ids":["751095602582126653","555408669488185344"],
+  "developerID": ["751095602582126653"],
   "colorthemecode":"#FF5733",
   "randomMessages_Cooldown": ["هديها شوي"]
 }
